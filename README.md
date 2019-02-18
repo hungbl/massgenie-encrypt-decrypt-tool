@@ -1,2 +1,2 @@
-# massgenie-ultimate-tool
-This is MassGenie Ultimate Tool for everythings
+# massgenie-e&d-tool
+This is MassGenie Endcrypt and Decrypt Tool
