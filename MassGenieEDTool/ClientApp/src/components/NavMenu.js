@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Navbar, NavbarBrand} from 'reactstrap';
 import { Link } from 'react-router-dom';
-import './css/NavMenu.css';
 
 export default class NavMenu extends React.Component {
   constructor (props) {

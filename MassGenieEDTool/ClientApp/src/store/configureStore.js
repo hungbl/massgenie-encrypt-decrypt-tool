@@ -3,7 +3,7 @@ import createSagaMiddleware from 'redux-saga';
 import { routerMiddleware } from 'react-router-redux';
 
 import rootReducer from '../reducers/reducer-root';
-import {rootSaga} from '../saga/saga-root';
+import {rootSaga} from '../sagas/saga-root';
 
 export default function configureStore (history, initialState) {
 
@@ -25,6 +25,7 @@ export default function configureStore (history, initialState) {
     initialState,
     compose(applyMiddleware(...middleware), ...enhancers)
   );
+  console.log(rootSaga);
   sagaMiddleware.run(rootSaga);
   return store;
 }

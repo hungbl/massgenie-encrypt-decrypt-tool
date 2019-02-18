@@ -32,7 +32,7 @@
 }
 
 .mgFormBtn {
-    color: #272727;
+    color: whitesmoke;
     font-weight: 400;
     border: 1px solid #272727;
     padding: 10px;
@@ -42,7 +42,7 @@
 }
 
 .mgBtn {
-    color: #272727;
+    color: whitesmoke;
     font-weight: 400;
     border: 1px solid #272727;
     padding: 15px;
@@ -107,4 +107,9 @@
 
 .mgTextArea {
     min-height: 100px;
+}
+
+.message-validate {
+    color: #a94442;
+    padding-top: 10px;
 }
